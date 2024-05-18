@@ -1,12 +1,9 @@
-.center-box {
-    display: inline-block;
-    width: 400px;
-    height: 500px;
-    margin: 0;
-    padding: 0;
-    top : 10%;
-    left: 35%;
-    position: fixed;
+ .center-box {
     border: 5px solid black;
-    border-radius: 5px;
+    height: 83%; 
+    width: 33%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
