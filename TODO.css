@@ -1,8 +1,12 @@
 .center-box {
-    border: 2px solid black;
-    width:500px;
-    height: 500px;  
-    top: 50%;
-    left: 50%;
-    margin: auto;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    top : 10%;
+    left: 35%;
+    position: fixed;
+    border: 5px solid black;
+    border-radius: 5px;
 }
