@@ -1,6 +1,8 @@
 .center-box {
     border: 2px solid black;
-    width:100px;
-    height: 100px;
-    overflow: auto;
+    width:500px;
+    height: 500px;  
+    top: 50%;
+    left: 50%;
+    margin: auto;
 }
