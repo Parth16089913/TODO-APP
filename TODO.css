@@ -4,7 +4,7 @@
  
  .center-box {
     border: 5px solid black;
-    height: 83%; 
+    height: 84%; 
     width: 33%;
     position: fixed;
     top: 50%;
@@ -12,6 +12,7 @@
     transform: translate(-50%, -50%); 
     border-radius: 5px;
     background-color: lightblue;
+ 
 }
 
 .input {
@@ -44,4 +45,26 @@
 
 .button-delete-all {
     margin-left: 35%;
+}
+
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.task-item {
+    border: 2px solid black ;
+    margin-bottom: 5px;
+    height: 33px;
+    width: 350px;
+    align-items: center;
+}
+
+input[type=checkbox]{
+    height: 25px;
+    width: 25px;
+}
+
+label {
+    font-size: 25px;    
 }
