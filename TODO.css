@@ -68,3 +68,12 @@ input[type=checkbox]{
 label {
     font-size: 25px;    
 }
+
+/* CSS (styles.css) */
+.task-item label {
+    transition: opacity 0.5s ease; /* Apply transition to opacity property */
+}
+
+.task-item label.fade-out {
+    opacity: 0.5; /* Set opacity to 0.5 for the fade-out effect */
+}
